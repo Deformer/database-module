@@ -26,6 +26,9 @@ User.prototype.toJSON = function () {
 
   delete values.passwordHash;
   delete values.passwordSalt;
+  delete values.createdAt;
+  delete values.updatedAt;
+
   return values;
 };
 
