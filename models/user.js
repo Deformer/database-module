@@ -2,8 +2,7 @@ const Sequelize = require('sequelize');
 
 const { sequelize } = require('../database');
 const { compare } = require('../helpers');
-// const { BadRequestHttpException } = require('../../common/errors');
-const BadRequestHttpException = Error; // TODO make error module
+const { BadRequestHttpException } = require('errors-list/http-errors');
 
 const User = sequelize.define('user', {
   id: {

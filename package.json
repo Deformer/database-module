@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Deformer/database-module#readme",
   "dependencies": {
+    "errors-list": "git+https://github.com/Deformer/errors-list.git",
     "pg": "^7.7.1",
     "sequelize": "^4.41.2",
     "sequelize-cli": "^5.4.0"
