@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const { sequelize } = require('./');
+const { sequelize } = require('../database');
 const User = require('./user');
 
 const Room = sequelize.define('room', {

@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const { sequelize } = require('./');
+const { sequelize } = require('../database');
 const { compare } = require('../helpers');
 // const { BadRequestHttpException } = require('../../common/errors');
 const BadRequestHttpException = Error; // TODO make error module
