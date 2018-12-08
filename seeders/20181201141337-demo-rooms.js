@@ -9,7 +9,7 @@ module.exports = {
     title: 'Room2',
   }, {
     id: 3,
-    title: 'Room3',
+    title: 'Auth',
   }], {}),
 
   down: (queryInterface, Sequelize) => {

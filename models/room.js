@@ -14,6 +14,4 @@ const Room = sequelize.define('room', {
   },
 });
 
-Room.belongsToMany(User, { through: 'user_room' });
-
 module.exports = Room;
