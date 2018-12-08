@@ -15,6 +15,8 @@ const sequelize = new Sequelize(database, username, password, {
   dialect,
 });
 
+sequelize.sunc();
+
 module.exports = {
   sequelize,
 };
