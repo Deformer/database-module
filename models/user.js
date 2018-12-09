@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 
 const { sequelize } = require('../database');
-const { compare } = require('../helpers');
+const { compare } = require('../helpers/password-hash');
 const { BadRequestHttpException } = require('errors-list/http-errors');
 
 const User = sequelize.define('user', {
